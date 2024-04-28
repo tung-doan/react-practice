@@ -1,0 +1,77 @@
+body{
+  background-color: hsl(0, 0%, 17%);
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+input[type = 'text']{
+  width: 300px;
+  height: 50px;
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsla(0, 0%, 11%, 0.159);
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 60%);
+}
+
+.addbutton{
+  font-size: 2.5rem;
+  border: 3px solid hsl(0, 0%, 13%);
+  background-color: hsl(120, 100%, 28%);
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.addbutton:hover{
+  background-color: hsl(120, 100%, 35%);
+}
+
+
+.addbutton:active{
+  background-color: hsl(120, 100%, 40%);
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+  font-size: 2rem;
+  background-color: hsl(0, 0%, 13%);
+  color: hsl(0, 0%, 60%);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.deletebutton, .upbutton, .downbutton{
+  font-size: 2rem;
+  border: 3px solid hsl(0, 0%, 13%);
+  background-color: hsl(0, 100%, 28%);
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.deletebutton:hover, .upbutton:hover, .downbutton:hover{
+  background-color: hsl(0, 100%, 39%);
+}
+
+.deletebutton:active, .upbutton:active, .downbutton:active{
+  background-color: hsl(0, 100%, 50%);
+}

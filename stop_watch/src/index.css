@@ -1,0 +1,77 @@
+body{
+  margin: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.clock-container {
+  padding-top: 50px;
+  margin: 0;
+  font-family: monospace;
+  text-align: center;
+  width: 700px;
+  height: 200px;
+  border: 5px solid black;
+  border-radius: 100px;
+}
+
+.clock-display{
+  font-size: 5rem;
+  color: white;
+  text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.575);
+}
+
+.start{
+  background-color: hsl(120, 100%, 25%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.start:active{
+  background-color: hsl(120, 100%, 35%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.stop{
+  background-color: hsl(0, 100%, 32%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.stop:active{
+  background-color: hsl(0, 100%, 50%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.reset{
+  background-color: hsl(184, 100%, 35%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.reset:active{
+  background-color: hsl(184, 100%, 50%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+}

@@ -1,0 +1,24 @@
+body {
+  background-image: url('./assets/raiden.jpg');
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 6rem;
+}
+
+.clock-container {
+  font-family: monospace;
+  backdrop-filter: blur(4px);
+  padding: 10px ;
+}
+
+.clock-display{
+  text-align: center;
+  width: 100vw;
+  color: white;
+  text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.575);
+}
